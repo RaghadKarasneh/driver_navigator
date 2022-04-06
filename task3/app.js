@@ -16,3 +16,12 @@ function palindrome (string){
     return true
 }
 console.log(palindrome('ABCDCBA'));
+document.writeln(`
+<br>
+<br>
+Let's check if the given string (ABCDCBA) is a palindrome or not.
+<br>
+<br>
+`)
+document.writeln('The result is: ');
+document.writeln(palindrome('ABCDCBA'))

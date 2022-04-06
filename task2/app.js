@@ -10,3 +10,10 @@ function upperCase(str) {
  return array2.join(" ")   
 }
 console.log(upperCase(`the car drove fast`));
+document.writeln(`
+<br>
+<br>
+The old straing was: the car drove fast, and the newest one is
+<br>
+<br>`)
+document.writeln(upperCase(`the car drove fast`));
