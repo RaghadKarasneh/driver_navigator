@@ -8,3 +8,5 @@ function reverse(nums) {
 }
 reverse([8,3,4,8,4,8]);
 console.log(newArray);
+document.writeln('The old array was: [8,3,4,8,4,8], and the newest one is: <br> <br>')
+document.writeln(newArray);
